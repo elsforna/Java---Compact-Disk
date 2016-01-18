@@ -25,7 +25,6 @@ public class CompactDisk {
         int durata = 0;
         int i = 0;
         int dim = 11;
-        //int dim1 = 10000;
         //Variabili Switch
         int numeroSW = 0;
         int numeroSW1 = 0;
@@ -62,15 +61,13 @@ public class CompactDisk {
                             switch(numeroSW)
                             {
                                 case 1: 
-                                    
                                         //Scelta dei parametri da modificare
                                         i = 1;
                                         while(true)
                                         {
                                             if(numeroSW1 == 3)
                                                 break;
-                                            //if(numeroSW == 3) break;
-                                            //{
+                                            
                                                     numeroSW1 = inputI(" - Digita 1 se vuoi modificare i titoli dei brani;\n" + " - Digita 2 se vuoi modificare le durate dei brani.\n" + " - Digita 3 per terminare le modifiche");
                                                     switch(numeroSW1)
                                                     {
@@ -91,7 +88,7 @@ public class CompactDisk {
                                                             break;
 
                                                     }
-                                            //}
+                                        
                                             
                             
                                         }
