@@ -3,6 +3,7 @@ Classe che permette di effettuare l'input da tastiera in modo molto easy u.u
 Per ora ci sono i metodi:
     InputS (restituisce stringa)
     InputI (restituisce intero)
+                                        BY Nicolò Vescera (ncvescera on GitHub)
 */
 package compactdisk;
 
